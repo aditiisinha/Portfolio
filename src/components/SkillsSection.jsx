@@ -71,7 +71,7 @@ export const SkillsSection = () => {
           {filteredSkills.map((skill, key) => (
             <div
               key={key}
-              className="group relative overflow-hidden bg-card/50 backdrop-blur-sm p-6 rounded-xl border border-border/50 transition-all duration-300 hover:border-primary/50 hover:shadow-[0_0_20px_-5px_hsl(var(--primary))] hover:-translate-y-1"
+              className="group relative overflow-hidden bg-[var(--skill-bg)] backdrop-blur-sm p-6 rounded-xl border border-[var(--skill-border)] transition-all duration-300 hover:border-primary/50 hover:shadow-[0_0_20px_-5px_hsl(var(--primary))] hover:-translate-y-1"
             >
               <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
 
